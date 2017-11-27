@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <base href="/">
+    <title>Capture the Flag  </title>
+      <link rel="stylesheet" href="http://brobin.github.io/hacker-bootstrap/css/hacker.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc6dZhtSDWz0lUz-ac7F2yQ7Mt_oOv7DY"></script>
+
+
+
+  </head>
+  <body>
+    <div id='root'>
+    </div>
+    <script src="/static/bundle.js"></script>
+
+ <!-- Github stars script -->
+ <script>
+ $(document).ready(function(){
+     $.getJSON("https://api.github.com/repos/brobin/hacker-bootstrap", function(data){
+         var stars = data['stargazers_count'];
+         $("#stars").text(stars + " stars");
+     });
+ });
+ </script>
+  </body>
+</html>

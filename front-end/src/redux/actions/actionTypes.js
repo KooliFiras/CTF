@@ -1,0 +1,15 @@
+export const INIT_AUTH = 'INIT_AUTH';
+export const SIGN_UP_SUCCESS = 'SIGN_UP_SUCCESS'
+export const SIGN_UP_ERROR = 'SIGN_UP_ERROR';
+export const SIGN_IN_ERROR = 'SIGN_IN_ERROR';
+export const SIGN_IN_SUCCESS = 'SIGN_IN_SUCCESS';
+export const SIGN_OUT_SUCCESS = 'SIGN_OUT_SUCCESS';
+export const SET_FIRST_NAME = 'SET_FIRST_NAME';
+export const SET_LAST_NAME = 'SET_LAST_NAME';
+export const SET_EMAIL = 'SET_EMAIL';
+export const SET_PASSWORD = 'SET_PASSWORD';
+export const SET_CITY = 'SET_CITY';
+export const SET_PHONE = 'SET_PHONE';
+export const SET_USER_AVATAR = 'SET_USER_AVATAR';
+export const SET_USER_AUTHORIZED = 'SET_USER_AUTHORIZED';
+export const SET_USER_TYPE = 'SET_USER_TYPE';
